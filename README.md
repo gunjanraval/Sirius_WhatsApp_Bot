@@ -36,6 +36,10 @@ Usage: Sirius disapparate <new name>
 Change the mode from scanning outgoing to incoming messages  
 Usage: Sirius snape <name> in/out
   
-#### 8. wiki
+#### 9. wiki
 Gets the definition from wikipedia via query
 Usage: Sirius wiki <query>
+
+#### 10. cantis / soundcloud
+Gets the song link from soundlcoud
+Usage: Sirius cantis <query>
