@@ -156,6 +156,14 @@ def youtube(subject):
     d.close()
     return link
 
+def googleImage(subject):
+    d = webdriver.Chrome()    
+    d.get('https://www.google.com/search?tbm=isch&q='+removeSpaces(subject))
+    src =d.find_elements_by_class_name('rg_ic')[0].get_attribute('src')
+    #WIP from here...
+    d.close()
+    return link
+
 def soundcloud(subject):
     d = webdriver.Chrome()    
     d.get('https://www.soundcloud.com/search?q='+removeSpaces(subject))
