@@ -35,15 +35,7 @@ Usage: Sirius disapparate <new name>
 #### 7. mode / snape
 Change the mode from scanning outgoing to incoming messages  
 Usage: Sirius snape <name> in/out
-
-#### 8. urban
-Gets the meaning of a query from Urban Dictionary
-Usage: Sirius urban <query>
   
-#### 9. wiki
+#### 8. wiki
 Gets the definition from wikipedia via query
 Usage: Sirius wiki <query>
-
-#### 10. soundlcoud / cantis
-Gets the song link from soundcloud
-Usage: Sirius cantis <query>
